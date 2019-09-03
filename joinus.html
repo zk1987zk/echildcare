@@ -1,0 +1,109 @@
+<!doctype HTML>
+<html lang="en">
+	<head>
+		<title>Join us</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href="images/logoIcon.png" type="image/x-icon" rel="shortcut icon">
+		<script src="js/jquery-2.1.1.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	
+	<body>
+		<section id="container">
+					<div id="logo">
+						<a href="index.html"><img src="images/logo.png" alt="Queensland Childcare Index"/> </a>
+					</div>
+					
+					<div class="rightTop">
+						 <input type="text" name="membername" placeholder="Name"><input type="password" name="password" placeholder="Password"><button onclick="checkFunction()" class="memberLogin" class="memberLogin">Log in</button>
+						<br>
+						<span id="errorMessage"></span>
+						<p class="memberTop">Not a member yet? <a href="Joinus.html">Join us!</a></p>
+					</div>
+					
+					<div id="titlePage">
+						<a href="index.html"><img src="images/Queensland Childcare Index.png" alt="Queensland Childcare Index title"/> </a>
+					</div>
+					
+					<div class="rightBottom">
+						<a href="https://twitter.com/intent/user?screen_name=echildcare&original_referer=http://www.echildcare.com.au/sunshine-jigsaw/"><img class="socialNetwork" src="images/twitterButton.png"></a>
+						<a href="https://www.facebook.com/echildcare?ref=ts&fref=ts"><img class="socialNetwork" src="images/facebookButton.png"></a>
+					</div>
+									
+			<div id="navStyle">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</li></a>
+						<li><a href="service.html">Services</li></a>
+						<li><a href="news.html">News</li></a>
+
+						<li>
+							Site Services
+							<ul>
+								<li>Advertisement</li>
+								<li>Purchase data</li>
+							</ul>
+						</li>
+						<li><a href="jobs.html">Jobs</li></a>
+						<li><a href="ContactUs.html">Contact Us</li></a>
+					</ul>
+				</nav>
+			</div>
+			
+			<div id="memberApply">
+			<h1>Member Application Form</h1>
+			
+				<fieldset>
+					<legend><strong>Login details</strong></legend>
+					<p>Select username: <input type="text" size="20"/>
+
+					</p>
+					<p>Select password: <input id="passwordInput" type="password" name="password"></p> 
+					<p>Confirm password: <input id="passwordCheck" type="password" name="password" onkeyup="checkPass();"></p>
+					<span id="confirmMessage"></span>
+				</fieldset>
+				<fieldset>
+					<legend><strong>General information</strong></legend>
+					First Name: <input id="firstName" input type="text" size="20"/>
+					Last Name: <input id="lastName" input type="text" size="20"/>
+					<p>Gender: <input type="radio" value="Male">Male
+							   <input type="radio" value="Femalie">Female
+
+					</p>
+					<p>Date Of Birth: <input type="text" size="20"/></p>
+					<legend><strong>Contacting detials</strong></legend>
+					<p>Address: <input id="addressInput"  type="text" size="40"/></p>
+					<p>Suburb: <input type="text" size="20"/> City: <input type="text" size="20"/></p>
+					<p>State: 
+						<select>
+						<option>QLD</option>
+						<option>NSW</option>
+						<option>NT</option>
+						<option>SA</option>
+						<option>TAS</option>
+						<option>WA</option>
+						</select>
+					</p>
+
+					<p>Phone Number: <input type="text" size="20"/>
+					   Email Address: <input id="emailInput"  type="email" size="20"/></p>
+					<button onclick="submitFunction()" id="submitButton">Submit</button>
+					<br>
+					<span id="submitMessage"></span>
+				</fieldset>
+			</div>
+
+			<footer>
+				<div id="footerNav">	
+					<ul>
+						<li>Copyright 2013-2014 eChildcare</li>
+						<li><a href="index.html">Home Page</li></a>
+						<li><a href="Add_Services.html">Add services</li></a>
+						<li><a href="jobs.html">Jobs</li></a>
+						<li><a href="contactUs.html">Contact Us</li></a>
+					</ul>						
+				</div>
+			</footer>
+		</section>
+	</body>
+</html>

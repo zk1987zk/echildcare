@@ -1,0 +1,338 @@
+
+html {
+  font-family:arial;
+}
+
+body {
+	background: url("../images/background.gif") repeat;
+}
+
+#container {
+	border: 4px solid #9C9C9C;
+	background: #E2E2E2;
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+#logo {
+  float:left;
+  margin-left:10px;
+  margin-top:10px;
+}
+
+#logo img{
+	height:150px;
+	width:150px;
+}
+
+#titlePage{
+	float:left;
+	margin-top:-30px;
+}
+
+#errorMessage {
+  float:right;
+  color:red;
+}
+
+#webTitle {
+  position:relative;
+  width:200px;
+  float:left;
+}
+
+#webTitle h1 {
+  text-align:center;
+  float:left;
+  background-color: #edd0be;
+  color:white;
+}
+
+#searchTitle {
+  background:#99CCFF;
+  padding: 1px 0px;
+  width:300px;
+  margin:0 auto;
+  text-align: center;
+}
+
+
+.rightTop {
+  float:right;
+  margin-top: 20px;
+  margin-right:25px;
+  height:80px;
+}	
+
+.rightBottom {
+  float: right;
+  margin-left: 200px;
+  margin-top:-70px;
+  margin-right: 25px;
+  clear:both;
+}
+
+.memberLogin {
+  background-color: #FF9900;
+}
+
+.memberTop {
+  float:right;
+  clear:both;
+  line-height:0px;
+}
+
+.memberTop a {
+  color: #696;
+}
+
+.memberTop a:visited {
+  color: #555;
+}
+
+/*page content style*/
+
+#content {
+	margin:20px, auto;
+	padding: 25px;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+
+#content a {
+  color: #555;
+}
+
+#content a:visited {
+  color: #696;
+}
+
+#searchBar{
+	text-align:center;
+	margin-top:10px;
+	margin-left:100px;
+}
+
+#inputSearch {
+	width: 350px;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.searchButton {
+  background:#FF9900;
+  width:100px;
+  height: 40px;
+  color:black;
+}
+
+nav {
+  width: 1000px; 
+  clear: both;
+  text-align: center;
+}
+
+/*http://cssdeck.com/labs/another-simple-css3-dropdown-menu*/
+
+nav ul {
+  text-align: center;
+  display: inline;
+  margin: 0;
+  padding: 15px 0px 17px 0;
+  list-style: none;
+  
+}
+
+nav ul li {
+  font: bold 18px arial;
+  display: inline-block;
+  width:110px;
+  margin-right: .2px;
+  position: relative;
+  padding: 15px 25px;
+  background:#99CCFF;
+  cursor: pointer;
+  font-size:14px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li:hover {
+  background: #555;
+  color: #fff;
+  font-style: italic;
+}
+
+nav ul li a:hover, nav ul li a:visited {
+  background: #555;
+  color: #fff;
+}
+
+nav ul li ul {
+  padding: 0;
+  position: absolute;   
+  top: 45px;
+  left: 0;
+  width: 166px;
+  display: none;
+  visibility: hidden;
+}
+
+nav ul li ul li { 
+  text-align: center;
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+  font-size:12px;
+}
+
+nav ul li ul li a {
+  text-decoration: none;
+}
+
+nav ul li ul li:hover { 
+  background: #666; 
+}
+
+nav ul li ul li a:visited{
+  color: #fff
+}
+
+nav ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+}
+
+/* bodystyle*/
+
+#bodyContainer{
+    border:1px;
+}
+
+#featuredServices{
+    width:48%;
+    float:left;
+    margin-bottom: 30px;
+}
+
+#featuredServices ul li{
+  list-style: none;
+  font-weight: 5px;
+}
+
+#featuredServices h2{
+  text-align: center;
+}
+
+#latestNews {
+  width:48%;
+  float:right;
+  margin-bottom: 30px;
+}
+
+#latestNews h2{
+  text-align: center;
+}
+
+#purchaseTitle h1 {
+  padding: 10px;
+}
+
+/*footer*/
+
+footer {	
+  margin-top: 120px;
+  text-align:center;
+}
+
+#footerNav ul {
+  width: 1000px;
+  margin-top:40px;
+  text-align: center;
+  padding-left: 0px;
+}
+	
+#footerNav ul li {
+  display: inline;
+  padding: 5px;
+}
+
+#footerNav a {
+  color: #696;
+}
+
+#footerNav a:visited {
+  color: #555;
+}
+
+.contentBox {
+  border: 1px solid #dcdcdc;
+  margin: 10px, auto;
+  padding: 10px;
+}
+
+.contentBox h4 {
+  color: white;
+  background-color: #afafaf;
+  padding: 5px;
+}
+
+
+#table{
+	float:right;
+}
+
+#purchaseTitle{
+	padding-top: -5px;
+	padding-bottom: 10px;
+	margin-left:300px;
+	margin-bottom:30px;
+	height:70px;
+	width:370px;
+	border:1.5px solid;
+}
+
+#content #purchaseTitle{
+	text-align:center;
+}
+
+legend{
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+}
+
+fieldset h1{
+	margin-right:500px;
+}
+
+#subtext{
+	height:50px;
+	width:300px;
+	font-size:10px;
+	float:left;
+}
+
+#email{
+	float:left;
+	clear:both;
+	margin-top:10px;
+}
+
+.searchButton{
+	float:right;
+	clear:both;
+	margin-top:15px;
+	margin-left:20px;
+}
+
+
+

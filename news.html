@@ -1,0 +1,144 @@
+<!doctype HTML>
+<html lang="en">
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href="images/logoIcon.png" type="image/x-icon" rel="shortcut icon">
+		<script src="js/jquery-2.1.1.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	
+	<body>
+		<section id="container">
+					<div id="logo">
+						<a href="index.html"><img src="images/logo.png" alt="Queensland Childcare Index"/> </a>
+					</div>
+					
+					<div class="rightTop">
+						 <input type="text" name="membername" placeholder="Name"><input type="password" name="password" placeholder="Password"><button onclick="checkFunction()" class="memberLogin">Log in</button>
+						<br>
+						<span id="errorMessage"></span>
+						<p class="memberTop">Not a member yet? <a href="Joinus.html">Join us!</a></p>
+					</div>
+					
+					<div id="titlePage">
+						<a href="index.html"><img src="images/Queensland Childcare Index.png" alt="Queensland Childcare Index title"/> </a>
+					</div>
+					
+					<div class="rightBottom">
+						<a href="https://twitter.com/intent/user?screen_name=echildcare&original_referer=http://www.echildcare.com.au/sunshine-jigsaw/"><img class="socialNetwork" src="images/twitterButton.png"></a>
+						<a href="https://www.facebook.com/echildcare?ref=ts&fref=ts"><img class="socialNetwork" src="images/facebookButton.png"></a>
+					</div>
+									
+			<div id="navStyle">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</li></a>
+						<li><a href="service.html">Services</li></a>
+						<li class="currentPage"><a href="news.html">News</li></a>
+
+						<li>
+							Site Services
+							<ul>
+								<li><a href="advertise_jobs.html">Advertising</li></a>
+								<li><a href="sitePurchaseBulkData.html">Purchase data</li></a>
+							</ul>
+						</li>
+						<li><a href="jobs.html">Jobs</li></a>
+						<li><a href="ContactUs.html">Contact Us</li></a>
+					</ul>
+				</nav>
+			</div>
+
+                            <div id="content">
+                                <ul id="newslist">
+                                    <li>
+                                        <img src="images/newsImages/boy-climbing-300-150.jpg">
+                                        <h3><a href="http://www.brisbanetimes.com.au/federal-politics/political-news/childcare-workers-asked-to-hand-back-wage-rise-20131210-2z2pw.html">Childcare workers asked to hand back wage rise</a> <small>(Dec 10)</small></h3>
+                                        <p>The Abbott government is asking childcare providers to "do the right thing" and hand back $62.5 million given to them to improve wages in the poorly paid sector, in a move slammed by Labor as a broken election promise.</p>
+                                        <div><i>Read the whole story at the <a href="http://www.brisbanetimes.com.au/federal-politics/political-news/childcare-workers-asked-to-hand-back-wage-rise-20131210-2z2pw.html" onClick="logClick(this.href,'newslinkbottom')">Brisbane Times</a> website.</i></div>
+                                    </li>
+                                       
+                                    <li class="news2">
+                                        <img src="images/newsImages/boy-with-clown-300-150.jpg">
+                                        <h3><a href="http://www.ntnews.com.au/article/2013/07/22/323074_ntnews.html">High-earning mums in childcare furore</a> <small>(Jul 22)</small></h3>
+                                        <p>Australia's best-paid women are demanding tax write-offs for childcare fees and taxpayer-funded maternity leave.</p>
+                                        <div><i>Read the whole story at the <a href="http://www.ntnews.com.au/article/2013/07/22/323074_ntnews.html" onClick="logClick(this.href,'newslinkbottom')">NT News</a> website.</i></div>
+                                    </li>
+                                   
+                                    <li class="news3">
+                                        <img src="images/newsImages/boys-in-tree-160-100.jpg">
+                                        <h3><a href="http://www.adelaidenow.com.au/national-news/south-australia/measures-to-improve-out-of-school-hours-care/story-fnii5yv4-1226683429774#ixzz2Zx2F6XaE">Measures to improve out of school hours care</a> <small>(Jul 22)</small></h3>
+                                        <p>SA schools will be able to outsource after-hours care to a list of pre-approved providers, a move the State Government says will help reduce the burden on governing councils.</p>
+                                        <div><i>Read the whole story at the <a href="http://www.adelaidenow.com.au/national-news/south-australia/measures-to-improve-out-of-school-hours-care/story-fnii5yv4-1226683429774#ixzz2Zx2F6XaE">news.com.au</a>website.</i></div>
+                                    </li>
+                                    
+                                    <li class="news4">
+                                        <img src="images/newsImages/class.jpg">
+                                        <h3><a href="http://www.themercury.com.au/article/2013/07/21/383903_tasmania-news.html">Childcare costs return to work</a> <small>(Jul 21)</small></h3>
+                                        <p>Mothers are saying no to full-time work -- and even refusing to return to the workforce at all -- because of the high cost and confusion of finding childcare.</p>
+                                        <div><i>Read the whole story at <a href="http://www.themercury.com.au/article/2013/07/21/383903_tasmania-news.html">The Mercury</a> website.</i></div>
+                                    </li>
+                                      
+                                    <li class="news5">
+                                        <img src="images/newsImages/echildcare_bigger.jpg">
+                                        <h3><a href="http://www.news.com.au/national-news/federal-election/voice-of-australia-how-do-your-childcare-costs-add-up/story-fnho52ip-1226682784730#ixzz2Zx42Z74a">How do your childcare costs add up?</a> <small>(Jul 21)</small></h3>
+                                        <p>Australian parents fork out more for childcare than families in the United Kingdom or Norway but still don't come close to paying Swiss prices.</p>
+                                        <div><i>Read the whole story at the <a href="http://www.news.com.au/national-news/federal-election/voice-of-australia-how-do-your-childcare-costs-add-up/story-fnho52ip-1226682784730#ixzz2Zx42Z74a">ABC News</a> website.</i></div>
+                                    </li>
+                                      
+                                    <li class="news6">
+                                        <img src="images/newsImages/girl-at-desk-250-180.jpg">
+                                        <h3><a href="http://au.news.yahoo.com/thewest/a/-/breaking/14018684/big-fines-for-childcare-centres/">Big fines for childcare centres</a> <small>(Jun 23)</small></h3>
+                                        <p>Fifty WA childcare providers breached State regulations in the past year, with legal action or licence suspensions pursued against 11 services for problems including inadequate supervision and failing to report a child's hospital visit to authorities.</p>
+                                        <div><i>Read the whole story at <a href="http://au.news.yahoo.com/thewest/a/-/breaking/14018684/big-fines-for-childcare-centres/">The West Australian</a> website.</i></div>
+                                    </li>
+                                    
+                                    <li class="news7">
+                                        <img src="images/newsImages/group.jpg">
+                                        <h3><a href="http://www.abc.net.au/news/2012-06-06/gillard-calls-meeting-over-childcare-fee-hikes/4056352">Gillard calls snap meeting on childcare fee hikes</a> <small>(Jun 6)</small></h3>
+                                        <p>Reports that childcare fees have risen by an average of 11 per cent in the past year seem to have sprung Prime Minister Julia Gillard into action. </p>
+                                        <div><i>Read the whole story at the <a href="http://www.abc.net.au/news/2012-06-06/gillard-calls-meeting-over-childcare-fee-hikes/4056352">ABC News</a> website.</i></div>
+                                    </li>
+                                      
+                                    <li class="news8">
+                                        <img src="images/newsImages/icypole.jpg">
+                                        <h3><a href="http://www.theage.com.au/victoria/call-to-delay-kinder-changes-rejected-20120601-1zncz.html">Call to delay kinder changes rejected</a> <small>(Jun 2)</small></h3>
+                                        <p>Calls for the federal government to extend the June 2013 deadline for when Victorian kindergartens must provide 15-hour programs for four-year-olds appear to have fallen on deaf ears.</p>
+                                        <div><i>Read the whole story at <a href="http://www.theage.com.au/victoria/call-to-delay-kinder-changes-rejected-20120601-1zncz.html">The Age</a> website.</i></div>
+                                    </li>
+                                      
+                                    <li class="news9">
+                                        <img src="images/newsImages/railing.jpg">
+                                        <h3><a href="http://www.heraldsun.com.au/news/more-news/workers-pay-out-on-minimum-wage-rise/story-fn7x8me2-1226381013663">Workers pay out on minimum wage rise</a> <small>(Jun 2)</small></h3>
+                                        <p>Childcare staff talk about how little the rise in minimum wage will help them</p>
+                                        <div><i>Read the whole story at the <a href="http://www.heraldsun.com.au/news/more-news/workers-pay-out-on-minimum-wage-rise/story-fn7x8me2-1226381013663">Herald Sun</a> website.</i></div>
+                                    </li>
+                                     
+                                    <li class="news10">
+                                        <img src="images/newsImages/twasI.jpg">
+                                        <h3><a href="http://www.canberratimes.com.au/act-news/childcare-centres-ready-for-fire-hazards-20120530-1zjjm.html">Childcare centres ready for fire hazards </a> <small>(May 31)</small></h3>
+                                        <p>Childcare providers assure parents that Canberra centres are safe from the kind of inferno that killed 13 children, including three New Zealand triplets, in a Qatari crèche this week.</p>
+                                        <div><i>Read the whole story at the <a href="http://www.canberratimes.com.au/act-news/childcare-centres-ready-for-fire-hazards-20120530-1zjjm.html">Canberra Times</a> website.</i></div>
+                                    </li>
+                                </ul>			
+                            </div>
+                    </div>
+			</div>
+			
+				<!--Package designed by Hakan Yalcin from the Noun Project-->
+			
+			<footer>
+				<div id="footerNav">	
+					<ul>
+						<li>Copyright 2013-2014 eChildcare</li>
+						<li><a href="index.html">Home Page</li></a>
+                                                <li><a href="Add_Services.html">Add Services</li></a>
+						<li><a href="jobs.html">Jobs</li></a>
+						<li><a href="contactUs.html">Contact Us</li></a>
+					</ul>						
+				</div>
+			</footer>
+		</section>
+	</body>
+</html>

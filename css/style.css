@@ -1,0 +1,617 @@
+body {
+  background: url("../images/background.gif") repeat;
+  font-family: arial;
+}
+
+#container {
+  border: 4px solid #9C9C9C;
+  background: #E2E2E2;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+#logo {
+  float:left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+#logo img{
+  height: 150px;
+  width: 150px;
+}
+
+#titlePage{
+  float: left;
+  margin-top: -40px;
+  margin-left: 60px;
+}
+
+#errorMessage {
+  float: right;
+  color: red;
+}
+
+#webTitle {
+  position: relative;
+  width: 200px;
+  float: left;
+}
+
+#webTitle h1 {
+  text-align: center;
+  float: left;
+  background-color: #edd0be;
+  color: white;
+}
+
+#searchTitle {
+  background: #99CCFF;
+  padding: 1px 0px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rightTop {
+  float: right;
+  margin-top: 20px;
+  margin-right: 25px;
+  height: 80px;
+}	
+
+.rightBottom {
+  float: right;
+  margin-left: 200px;
+  margin-top: -78px;
+  margin-right: 25px;
+  clear: both;
+
+}
+
+.memberLogin {
+  background-color: #FF9900;
+}
+
+.memberTop {
+  float: right;
+  clear: both;
+  line-height: 0px;
+}
+
+.memberTop a {
+  color: #696;
+}
+
+.memberTop a:visited {
+  color: #555;
+}
+
+/*page content style*/
+
+#content {
+	margin: 20px, auto;
+	padding: 25px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#servicesHead {
+  text-align: center;
+}
+
+#searchBar{
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+#inputSearch {
+	width: 350px;
+	height: 40px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.searchButton {
+  background: #FF9900;
+  width: 100px;
+  height: 40px;
+  color: black;
+  padding-top: 3px;
+}
+
+/*navigation*/
+
+nav {
+  width: 1000px; 
+  clear: both;
+  text-align: center;
+}
+
+/*http://cssdeck.com/labs/another-simple-css3-dropdown-menu*/
+
+nav ul {   text-align: center;   display: inline;   margin: 0;   padding: 15px
+0px 17px 0;   list-style: none;   color: #fff;  }
+
+nav ul li {
+  font: bold 18px arial;
+  display: inline-block;
+  width: 110px;
+  margin-right: .2px;
+  position: relative;
+  padding: 15px 25px;
+  background: #99CCFF;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li:hover {
+  background: #555;
+  color: #fff;
+  font-style: italic;
+}
+
+nav ul li a:hover, nav ul li a:visited {
+  background: #555;
+  color: #fff;
+}
+
+nav ul li ul {
+  padding: 0;
+  position: absolute;   
+  top: 45px;
+  left: 0;
+  width: 166px;
+  display: none;
+  visibility: hidden;
+}
+
+nav ul li ul li { 
+  text-align: center;
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+  font-size:12px;
+}
+
+nav ul li ul li a {
+  text-decoration: none;
+}
+
+nav ul li ul li:hover { 
+  background: #666; 
+}
+
+nav ul li ul li a:visited{
+  color: #fff
+}
+
+nav ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* body*/
+
+#content a {
+  color: #555;
+}
+
+#content a:visited {
+  color: #696;
+}
+
+#enteradform a {
+  color: #555;
+}
+
+#enteradform a:visited {
+  color #696;
+}
+
+#advertise {
+  float: right;
+  text-align: center;
+  border: medium solid black;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+#centreLocation {
+  width: 400px;
+  height: 195px;
+}
+
+#toapply {
+  margin: 0.5em 0;
+  padding: 1em;
+  border: thin solid black;
+  border-style: dotted;
+  background-color: #fff;
+  color: inherit;
+  text-align: left;
+}
+
+#bodyContainer{
+    border:1px;
+}
+
+#featuredServices{
+    width:48%;
+    float:left;
+    margin-bottom: 30px;
+}
+
+#featuredServices ul li{
+  list-style: none;
+  font-weight: 5px;
+}
+
+#featuredServices h2{
+  text-align: center;
+}
+
+#verify {
+  padding-left: 15px;
+}
+
+#verify a {
+  color: #555;
+}
+
+#verify a:visited {
+  color: #696;
+}
+
+/*news*/
+
+#latestNews {
+  width:48%;
+  float:right;
+  margin-bottom: 30px;
+}
+
+#latestNews h2{
+  text-align: center;
+}
+
+ul#newslist {
+  list-style: none;
+  margin-left: 80px;
+}
+
+ul#newslist a {
+  color: #696;
+}
+
+ul#newslist a:visited {
+  color: #555;
+}
+
+ul#newslist h3 {
+  line-height: 10px;
+  padding-top: 5px;
+}
+
+ul#newslist img {
+  float: left;
+  margin-top: 10px;
+  margin-left: -123px;
+}
+
+.thanks {
+  padding-left: 10px;
+}
+
+#enteradform{
+  margin-left:40px;
+  margin-right: 40px;
+}
+
+#intro{
+  margin-top: 15px;
+  text-align: center;
+  line-height: 35px;
+}
+
+#jobs ul a {
+  color: #555;
+  line-height: 30px;
+}
+
+#jobs ul a:visited {
+  color: #696;
+}
+
+/*directory*/
+
+#column1 {
+  float: left;
+  width: 49%;
+}
+
+#column1 li {
+  list-style: none;
+}
+
+#column1 ul li ul li a {
+  color: #555;
+}
+
+#column1 ul li ul li a:visited {
+  color: #696;
+}
+
+#column2 {
+  margin-left: 50%;
+}
+
+#column2 li {
+  list-style: none;
+}
+
+#column2 ul li ul li a {
+  color: #555;
+}
+
+#column2 ul li ul li a:visited {
+  color: #696;
+}
+
+/*contact page*/
+
+#contactform {
+  margin-right: auto;
+  margin-left: 140px;
+}
+
+#Contacttitle {
+  background-color: #99CCFF;
+  padding: 1px 0px;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#disclaimer{
+  margin-top: 15px;
+  text-align: center;
+  line-height: 35px;
+}
+
+div#contactform label {
+  padding-top: 5px;
+  float: left;
+  width: 125px;
+  text-align: right;
+}
+
+#messagesend {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #000000;
+  font-size: 14px;
+  background: #FF9900;
+  padding: 12px 20px 12px 20px;
+  text-decoration: none;
+  width: 25%;
+  margin-left: 230px;
+}
+
+#messagesend:hover {
+  background: #FF9900;
+  background-image: -webkit-linear-gradient(top, #FF9900, #e08d10);
+  background-image: -moz-linear-gradient(top, #FF9900, #e08d10);
+  background-image: -ms-linear-gradient(top, #FF9900, #e08d10);
+  background-image: -o-linear-gradient(top, #FF9900, #e08d10);
+  background-image: linear-gradient(to bottom, #FF9900, #e08d10);
+  text-decoration: none;
+}
+
+.messagesubject {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#textarea1 {
+  margin-left: 20px;
+}
+
+/*add service*/
+#info {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+div.serviceinfo {
+  clear: both;
+}
+
+div.serviceinfo label {
+  padding-top: 10px;
+  float: left;
+  width: 250px;
+  text-align: right;
+}
+
+div.serviceinfo input {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+div.serviceinfo textarea {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+#send {
+  padding-left: 140px;
+}
+
+/*footer*/
+
+footer {	
+  margin-top: 120px;
+  text-align:center;
+  clear: both;
+}
+
+#footerNav ul {
+  width: 1000px;
+  margin-top:40px;
+  text-align: center;
+  padding-left: 0px;
+}
+	
+#footerNav ul li {
+  display: inline;
+  padding: 5px;
+}
+
+#footerNav a {
+  color: #696;
+}
+
+#footerNav a:visited {
+  color: #555;
+}
+
+.contentBox {
+  border: 1px solid #dcdcdc;
+  margin: 10px,  auto;
+  padding: 10px;
+}
+
+.contentBox h4 {
+  color: white;
+  background-color: #afafaf;
+  padding: 5px;
+}
+
+#confirmMessage{
+  color:red;
+}
+
+#submitMessage{
+  color:red;
+}
+
+#memberApply{
+  width:900px;
+  margin:0 auto;
+}
+
+#memberApply h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+.currentPage{
+  background-color: gray;
+}
+
+#submitButton {
+  background-color: #FF9900;
+}
+
+#navIcon{
+  margin-top: 100px;
+
+  max-width:1000px;
+  text-align:center;
+}
+
+#iconLeft{
+  width:33%;
+  margin:0 auto;
+  position:relative;
+  display: inline-block;
+  float:left;
+}
+
+#iconMiddle{
+
+  width:33%;
+  margin:0 auto;
+  position:relative;
+  display: inline-block;
+}
+
+#iconRight{
+
+  width:33%;
+  margin:0 auto;
+ position:relative;
+  display: inline-block;
+  float:right;
+}
+
+#accordion ul li{
+  list-style: none;
+}
+
+.serviceHeader{
+  border:1px;
+  margin-top: 150px;
+} 
+
+#accordion {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#accordion h3{
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  cursor:pointer;
+  text-align:center;
+  background-color: #99CCFF;
+  margin: 0;
+
+}
+
+.subList{
+  text-align: center;
+}
+
+.subList a{
+  color: #555;
+}
+
+#accordion h3:hover{
+  background:gray;
+}
+
+#accordion ul{
+  padding-left: 0;
+}
+#accordion ul li{
+  background: #99CCFF;
+}
+#accordion ul li a{
+  text-decoration: none;
+}
+#accordion ul li:hover{
+  background:gray;
+}
+
+#accordion ul li a:hover{
+  color:white;
+  font-style: italic;
+}
+#accordion{
+  background:#99CCFF;
+}
